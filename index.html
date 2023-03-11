@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Tic Tac Toe</h1>
+      <h3 id="player"></h3>
+      <div id="game">
+          <div class="row">
+              <div class="cell" id="cell-1"></div>
+              <div class="cell" id="cell-2"></div>
+              <div class="cell" id="cell-3"></div>
+          </div>
+          <div class="row">
+              <div class="cell" id="cell-4"></div>
+              <div class="cell" id="cell-5"></div>
+              <div class="cell" id="cell-6"></div>
+          </div>
+          <div class="row">
+              <div class="cell" id="cell-7"></div>
+              <div class="cell" id="cell-8"></div>
+              <div class="cell" id="cell-9"></div>
+          </div>
+      </div>
+      <div id="result">
+          <h2 class="win"></h2>
+          <button id="restart">Restart</button>
+      </div>
+    </div>
+    <script type="module" src="src/index.ts"></script>
+  </body>
+</html>

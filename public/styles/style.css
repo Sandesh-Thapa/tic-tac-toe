@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background: url("/images/paper-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#game {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+h1, h2 {
+    margin-block: 5px;
+    text-align: center;
+}
+
+h3 {
+    margin-block: 10px;
+    text-align: center;
+    color: black;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.win {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restart {
+    width: 100px;
+    padding: 10px;
+    margin-block: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#cell-1 {
+    border-right: 5px solid #050505;
+    border-bottom: 5px solid #050505;
+}
+#cell-2 {
+    border-right: 5px solid #050505;
+    border-bottom: 5px solid #050505;
+}
+#cell-3 {
+    border-bottom: 5px solid #050505;
+}
+#cell-4 {
+    border-right: 5px solid #050505;
+    border-bottom: 5px solid #050505;
+}
+#cell-5 {
+    border-right: 5px solid #050505;
+    border-bottom: 5px solid #050505;
+}
+#cell-6 {
+    border-bottom: 5px solid #050505;
+}
+#cell-7 {
+    border-right: 5px solid #050505;
+}
+#cell-8 {
+    border-right: 5px solid #050505;
+}
