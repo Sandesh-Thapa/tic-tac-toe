@@ -36,9 +36,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-size: 70px;
+    color: #36454F;
+    font-size: 8rem;
     cursor: pointer;
+}
+
+.cell:hover {
+    background: rgba(166, 173, 17, 0.5);
 }
 
 h1, h2 {
@@ -46,10 +50,19 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
 h3 {
     margin-block: 10px;
     text-align: center;
     color: black;
+    font-size: 2rem;
 }
 
 .not-allowed {
@@ -71,38 +84,40 @@ h3 {
 }
 
 #restart {
-    width: 100px;
+    width: 150px;
     padding: 10px;
     margin-block: 5px;
     cursor: pointer;
     display: none;
+    border-radius: 10px;
+    font-size: 2rem;
 }
 
 #cell-1 {
-    border-right: 5px solid #050505;
-    border-bottom: 5px solid #050505;
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
 }
 #cell-2 {
-    border-right: 5px solid #050505;
-    border-bottom: 5px solid #050505;
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
 }
 #cell-3 {
-    border-bottom: 5px solid #050505;
+    border-bottom: 5px solid #36454F;
 }
 #cell-4 {
-    border-right: 5px solid #050505;
-    border-bottom: 5px solid #050505;
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
 }
 #cell-5 {
-    border-right: 5px solid #050505;
-    border-bottom: 5px solid #050505;
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
 }
 #cell-6 {
-    border-bottom: 5px solid #050505;
+    border-bottom: 5px solid #36454F;
 }
 #cell-7 {
-    border-right: 5px solid #050505;
+    border-right: 5px solid #36454F;
 }
 #cell-8 {
-    border-right: 5px solid #050505;
+    border-right: 5px solid #36454F;
 }
