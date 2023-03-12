@@ -98,3 +98,5 @@ function resetGame(): void {
   });
   playerTurn.innerText = `"${turn}'s turn"`;
 }
+
+export {};
