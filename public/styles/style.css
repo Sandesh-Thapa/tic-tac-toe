@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url("/images/paper-bg.jpg");
+    background: url("/tic-tac-toe/images/paper-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cccccc;
