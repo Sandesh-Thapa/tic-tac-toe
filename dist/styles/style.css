@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background: url("/tic-tac-toe/images/paper-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#game {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #36454F;
+    font-size: 8rem;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background: rgba(166, 173, 17, 0.5);
+}
+
+h1, h2 {
+    margin-block: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    margin-block: 10px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.win {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restart {
+    width: 150px;
+    padding: 10px;
+    margin-block: 5px;
+    cursor: pointer;
+    display: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    background: #d3c99f;
+}
+
+#cell-1 {
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
+}
+#cell-2 {
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
+}
+#cell-3 {
+    border-bottom: 5px solid #36454F;
+}
+#cell-4 {
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
+}
+#cell-5 {
+    border-right: 5px solid #36454F;
+    border-bottom: 5px solid #36454F;
+}
+#cell-6 {
+    border-bottom: 5px solid #36454F;
+}
+#cell-7 {
+    border-right: 5px solid #36454F;
+}
+#cell-8 {
+    border-right: 5px solid #36454F;
+}
